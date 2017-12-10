@@ -10,6 +10,7 @@ from token import STRING
 first_quote_search = re_compile(r'[\'"]').search
 invalid_escape_sequence_match = re_compile(
     r'''
+        # escape sequences in r'raw-strings' are all valid
         [ufb]?
         [\'"]
         # a valid escape sequence or other character
