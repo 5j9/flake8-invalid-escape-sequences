@@ -18,4 +18,5 @@ Installation
   pip install flake8_invalid_escape_sequences
 
 
-Should work with all officially supported Python versions.
+Should work with all officially supported Python versions, including
+Python 2.7.
