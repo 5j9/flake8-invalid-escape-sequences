@@ -40,6 +40,5 @@ def plugin(tree, file_tokens):
             )
 
 
-
 plugin.name = 'flake8_invalid_escape_sequences'
 plugin.version = __version__
