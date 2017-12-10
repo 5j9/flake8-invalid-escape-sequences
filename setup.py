@@ -1,4 +1,5 @@
 import setuptools
+from flake8_invalid_escape_sequences import __version__
 
 requires = [
     "flake8 > 3.0.0",
@@ -7,7 +8,7 @@ requires = [
 setuptools.setup(
     name="flake8_invalid_escape_sequences",
     license='GNU General Public License v3 (GPLv3)',
-    version="0.1.0",
+    version=__version__,
     description="Detects and warns about invalid escape sequences.",
     author="5j9",
     author_email="5j9@users.noreply.github.com",

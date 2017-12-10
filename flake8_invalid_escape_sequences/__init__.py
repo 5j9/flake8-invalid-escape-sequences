@@ -1,7 +1,7 @@
 """Define a flake8 plugin to check for invalid escape sequences."""
 from __future__ import unicode_literals, absolute_import
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 from ast import literal_eval
 from re import compile as re_compile
