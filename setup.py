@@ -11,7 +11,7 @@ setuptools.setup(
     description="Detects and warns about invalid escape sequences.",
     author="5j9",
     author_email="5j9@users.noreply.github.com",
-    url="https://gitlab.com/5j9/flake8_invalid_escape_sequences",
+    url="https://github.com/5j9/flake8_invalid_escape_sequences",
     packages=[
         "flake8_invalid_escape_sequences",
     ],
