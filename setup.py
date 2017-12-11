@@ -6,13 +6,13 @@ requires = [
 ]
 
 setuptools.setup(
-    name="flake8_invalid_escape_sequences",
+    name="flake8-invalid-escape-sequences",
     license='GNU General Public License v3 (GPLv3)',
     version=__version__,
     description="Detects and warns about invalid escape sequences.",
     author="5j9",
     author_email="5j9@users.noreply.github.com",
-    url="https://github.com/5j9/flake8_invalid_escape_sequences",
+    url="https://github.com/5j9/flake8-invalid-escape-sequences",
     packages=[
         "flake8_invalid_escape_sequences",
     ],

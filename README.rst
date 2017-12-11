@@ -1,7 +1,7 @@
-.. image:: https://travis-ci.org/5j9/flake8_invalid_escape_sequences.svg?branch=master
-    :target: https://travis-ci.org/5j9/flake8_invalid_escape_sequences
+.. image:: https://travis-ci.org/5j9/flake8-invalid-escape-sequences.svg?branch=master
+    :target: https://travis-ci.org/5j9/flake8-invalid-escape-sequences
 
-flake8_invalid_escape_sequences
+flake8-invalid-escape-sequences
 -------------------------------
 A plugin for flake8 (v3+) that detects and reports invalid escape sequences.
 
@@ -21,7 +21,7 @@ Installation
 
 .. code-block:: bash
 
-  pip install flake8_invalid_escape_sequences
+  pip install flake8-invalid-escape-sequences
 
 
 Should work with all officially supported Python versions, including

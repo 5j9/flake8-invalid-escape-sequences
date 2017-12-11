@@ -17,9 +17,9 @@ class PluginTest(TestCase):
         stdout_data, stderr_data = popen.communicate()
         assert stderr_data is None
         self.assertIn(
-            'flake8_invalid_escape_sequences',
+            'flake8-invalid-escape-sequences',
             stdout_data,
-            'it seems that flake8_invalid_escape_sequences is not installed',
+            'it seems that flake8-invalid-escape-sequences is not installed',
         )
         popen = Popen(
             args=[
