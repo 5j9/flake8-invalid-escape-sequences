@@ -11,7 +11,7 @@ install:
   - pip install .
   - pip install codecov
 script:
-  - cd dev
+  - cd tests
   - coverage run test.py
 after_success:
   - codecov
