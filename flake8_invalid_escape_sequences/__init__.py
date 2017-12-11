@@ -7,7 +7,6 @@ from re import compile as re_compile, VERBOSE
 from token import STRING
 
 
-first_quote_search = re_compile(r'[\'"]').search
 invalid_escape_sequence_match = re_compile(
     r'''
         # escape sequences in r'raw-strings' are all valid
