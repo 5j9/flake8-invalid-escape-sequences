@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/5j9/flake8_invalid_escape_sequences.svg?branch=master
+    :target: https://travis-ci.org/5j9/flake8_invalid_escape_sequences
+
 flake8_invalid_escape_sequences
 -------------------------------
 A plugin for flake8 (v3+) that detects and reports invalid escape sequences.
