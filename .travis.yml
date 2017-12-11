@@ -9,9 +9,6 @@ python:
   - "nightly"
 install:
   - pip install .
-  - pip install codecov
 script:
   - cd tests
-  - coverage run test.py
-after_success:
-  - codecov
+  - python -m test.py
