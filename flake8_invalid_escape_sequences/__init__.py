@@ -1,6 +1,6 @@
 """Define a flake8 plugin to check for invalid escape sequences."""
 
-__version__ = '1.3'
+__version__ = '1.4.dev0'
 
 
 from re import compile as re_compile, VERBOSE
