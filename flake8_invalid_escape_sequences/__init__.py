@@ -8,7 +8,10 @@ from token import STRING
 from warnings import warn
 
 from pkg_resources import parse_version
-from pycodestyle import __version__ as pycodestyle_version
+try:
+    from pycodestyle import __version__ as pycodestyle_version
+except ImportError:
+    pycodestyle_version = '0'
 
 
 if parse_version(pycodestyle_version) >= parse_version('2.4.0'):
