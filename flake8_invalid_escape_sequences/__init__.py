@@ -5,10 +5,10 @@ __version__ = '1.3.dev0'
 
 from re import compile as re_compile, VERBOSE
 from token import STRING
+from warnings import warn
 
 from pkg_resources import parse_version
 from pycodestyle import __version__ as pycodestyle_version
-from warnings import warn
 
 
 if parse_version(pycodestyle_version) >= parse_version('2.4.0'):
