@@ -6,6 +6,14 @@ __version__ = '1.2.dev0'
 from re import compile as re_compile, VERBOSE
 from token import STRING
 
+from pkg_resources import parse_version
+from pycodestyle import __version__ as pycodestyle_version
+from warnings import warn
+
+
+if parse_version(pycodestyle_version) >= parse_version('2.4.0'):
+    warn('pycodestyle 2.4.0+ includes W605 rule. '
+         'flake8-invalid-escape-sequence plugin is not required anymore.')
 
 invalid_escape_sequence_match = re_compile(
     r'''

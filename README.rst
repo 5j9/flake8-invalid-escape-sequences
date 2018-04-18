@@ -5,6 +5,8 @@ flake8-invalid-escape-sequences
 -------------------------------
 A plugin for flake8 (v3+) that detects and reports invalid escape sequences.
 
+Note: This plugin is not required anymore if you've upgraded to ``pycodestyle 2.4.0`` (released Apr 10, 2018). ``pycodestyle`` now issues `W605  <https://github.com/PyCQA/pycodestyle/commit/13d2bd200911850dacde31665235122d85290265>`_
+warning for invalid escape sequences.
 
 Introduction
 ------------
